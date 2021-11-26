@@ -179,3 +179,50 @@ a {
     margin-top: 6px;
     height: 30%;
 }
+
+.pjesa-dyte-l
+{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    
+}
+
+.ndarjet-dy
+{
+     margin: 60px; 
+    width: 21%;
+    border-style: solid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-width: 3px;
+   margin-top: 30px;
+    border-color: rgb(183, 183, 183);
+    margin: 20px;
+    box-shadow: 10px 10px 30px rgb(183, 183, 183);
+    margin-left: 25px;
+
+}
+
+.foto-dyte
+{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+
+.butoni-meshume
+{
+    background-color: #e7cdbd;
+    color: black;
+    padding: 5px;
+    border: none;
+    transition: 0.5s ease;
+    
+}
+.butoni-meshume:hover
+{
+    background-color: black;
+    color: #e7cdbd;
+}
