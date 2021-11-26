@@ -226,3 +226,61 @@ a {
     background-color: black;
     color: #e7cdbd;
 }
+
+
+.takimi-kontakti {
+    
+    margin-bottom: 30px;
+    margin-top: 30px;
+   margin-left: 35%;
+box-sizing: border-box;
+}
+
+.butonatetakimit {
+    display: block;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+
+
+}
+
+
+
+.emri {
+    padding: 15px;
+    width: 35%;
+    border: none;
+    border-radius: 6px;
+    display: block;
+    margin: 15px;
+    
+
+}
+
+.mesazhi {
+
+    padding: 2px;
+    width: 45%;
+    height: 100px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    
+}
+
+.dergo {
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px ;
+    border: none;
+    border-radius: 5px;
+    background-color: #80546b;
+    color: white;
+    width: auto;
+    transition: 0.5s ease;
+}
+
+.dergo:hover {
+    background-color: #4CAF50;
+    color: white;
+}
