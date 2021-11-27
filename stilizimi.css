@@ -103,6 +103,23 @@ a {
     padding: 25px;
 
 }
+.ikonat
+{
+    color: black;
+    width: 30px;
+    height: 50px;
+    display:inline-block;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 80px;
+    transition: 0.5s ease;
+    
+}
+.ikonat:hover
+{
+    color: rgb(3, 121, 62);
+    
+}
 
 
 .kontakti {
@@ -180,13 +197,6 @@ a {
     height: 30%;
 }
 
-.pjesa-dyte-l
-{
-    width: 100%;
-    height: 550px;
-    display: flex;
-    
-}
 
 .ndarjet-dy
 {
@@ -283,4 +293,75 @@ box-sizing: border-box;
 .dergo:hover {
     background-color: #4CAF50;
     color: white;
+}
+
+
+.pjesa-pare
+{
+    width: 100%;
+    height: 680px;
+    display: flex;
+
+
+}
+.teksti-pare
+{
+    width: 40%;
+    /* text-align: center; */
+    justify-content:right;
+     align-items: right; 
+    padding: 30px;
+}
+pre.teksti-pare 
+{
+     font-size: 20px; 
+     font-family: 'Times New Roman', Times, serif;
+    
+}
+.foto-pare
+{
+    width: 30%;
+    text-align:right;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 50px;
+    margin: 14px;
+
+
+}
+.pjesa-dyte
+{
+   font-size: 20px;
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-bottom: 70px;
+   text-align: left;
+   justify-content: center;
+   font-family:'Times New Roman', Times, serif;
+   
+
+}
+
+
+.dono
+{
+    background-color: #c2b8e4;
+    color: black;
+    padding: 5px;
+    transition: 0.5s ease;
+}
+.dono:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.donimi {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 50px;
+    font-size: 20px;
+    text-align: left;
+      
+
 }

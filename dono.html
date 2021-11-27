@@ -6,6 +6,55 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Logopedët</title>
    <link rel="stylesheet" type="text/css" href="stilizimi.css">
+
+   <style>
+      input[type=text],
+select,
+textarea {
+
+   width: 100%;
+
+   padding: 10px;
+
+   border: 1px solid #ccc;
+
+   border-radius: 4px;
+
+   box-sizing: border-box;
+
+   margin-top: 6px;
+
+   margin-bottom: 16px;
+
+   resize: horizontal;
+
+   text-align: center;
+
+}
+input[type=password],
+select,
+textarea {
+
+   width: 100%;
+
+   padding: 10px;
+
+   border: 1px solid #ccc;
+
+   border-radius: 4px;
+
+   box-sizing: border-box;
+
+   margin-top: 6px;
+
+   margin-bottom: 16px;
+
+   resize: horizontal;
+
+   text-align: center;
+
+}
+  </style>
 </head>
 <body>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -40,7 +89,39 @@
                           </nav>
            </header>
 
-
+           <div class="donimi">
+            <center><h2>Dononi:</h2>
+               <br>
+            <label for="Country">Zgjedhni emrin e bankës :</label>
+               <br>
+               <select id="country" name="country" style="width:250px">
+                   <option value="Kosova1">Zgjedh </option>
+                   <option value="Kosova">BKT</option>
+                   <option value="Shqiperia">Raiffeisen Bank</option>
+                   <option value="Usa">Pro Credit Bank</option>
+                   <option value="Usaa">TEB</option>
+               </select>
+   
+           <form>
+               <label for="fname">Shkruani numrin e xhirollogarisë:</label>
+               <br>
+               <input type="text" name="firstname" id="fname" placeholder="Nr. e xhirollogarisë.." style="width:250px;">
+                   <br>
+                   <label for="lname">Shkruani PIN-in e kartelës:</label>
+               <br>
+               
+               <input type="password" name="lname2" id="lname2" placeholder="PIN" style="width:250px;" >
+                   <br>
+               <label for="lname">Shkruani shumën që doni të dononi:</label>
+               <br>
+               <input type="text" name="lname" id="lname" placeholder="" style="width:250px;" >
+                <br>
+               <button type="submit" class="dergo">Dono!</button>
+   
+           </form>
+           </center> 
+       </div>
+   
  
 
                      <div class="pjesa-fundit">
