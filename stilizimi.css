@@ -70,7 +70,7 @@ a {
 #footer {
     width: auto;
     background-color: #e7cdbd;
-    
+
     min-height: 40px;
     position: relative;
     bottom: 0;
@@ -104,6 +104,24 @@ a {
 
 }
 
+.ikonat {
+    color: black;
+    width: 30px;
+    height: 50px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 80px;
+    transition: 0.5s ease;
+
+}
+
+.ikonat:hover {
+    color: rgb(3, 121, 62);
+
+}
+
+
 
 .kontakti {
     color: black;
@@ -133,7 +151,7 @@ a {
 
 
 .gupemoshat {
-   
+
     width: 30%;
     padding: 15px;
     margin: 25px;
@@ -180,24 +198,22 @@ a {
     height: 30%;
 }
 
-.pjesa-dyte-l
-{
+.pjesa-dyte-l {
     width: 100%;
     height: 550px;
     display: flex;
-    
+
 }
 
-.ndarjet-dy
-{
-     margin: 60px; 
+.ndarjet-dy {
+    margin: 60px;
     width: 21%;
     border-style: solid;
     text-align: center;
     justify-content: center;
     align-items: center;
     border-width: 3px;
-   margin-top: 30px;
+    margin-top: 30px;
     border-color: rgb(183, 183, 183);
     margin: 20px;
     box-shadow: 10px 10px 30px rgb(183, 183, 183);
@@ -205,37 +221,33 @@ a {
 
 }
 
-.foto-dyte
-{
+.foto-dyte {
     width: 100%;
     height: auto;
     padding: 0px;
 }
 
-.butoni-meshume
-{
+.butoni-meshume {
     background-color: #e7cdbd;
     color: black;
     padding: 5px;
     border: none;
     transition: 0.5s ease;
-    
+
 }
-.butoni-meshume:hover
-{
+
+.butoni-meshume:hover {
     background-color: black;
     color: #e7cdbd;
 }
 
 
-.pjesa-pare-takimi
-{
+.pjesa-pare-takimi {
     display: flex;
-    
+
 }
 
-.takimi-orari
-{
+.takimi-orari {
     margin: 30px;
     margin-top: 150px;
     width: 45%;
@@ -243,12 +255,14 @@ a {
     text-align: center;
 }
 
-.tabela
-{
+.tabela {
     background-color: #e4e3e3
 }
 
-tr, th,td, table{
+tr,
+th,
+td,
+table {
     border-color: rgb(14, 49, 29);
     padding: 6px;
     border-style: ridge;
@@ -267,12 +281,12 @@ tr, th,td, table{
 }
 
 .emri {
-   padding: 10px;
-  width: 40%;
-   border: none;
-   border-radius: 6px;
-   display: block;
-   margin: 15px;
+    padding: 10px;
+    width: 40%;
+    border: none;
+    border-radius: 6px;
+    display: block;
+    margin: 15px;
 }
 
 .mesazhi {
@@ -296,7 +310,7 @@ tr, th,td, table{
     width: auto;
     transition: 0.5s ease;
     margin: 15px;
-    
+
 }
 
 .dergo:hover {
@@ -308,6 +322,6 @@ tr, th,td, table{
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
-    
+
 
 }
