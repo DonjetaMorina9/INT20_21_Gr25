@@ -103,23 +103,6 @@ a {
     padding: 25px;
 
 }
-.ikonat
-{
-    color: black;
-    width: 30px;
-    height: 50px;
-    display:inline-block;
-    padding: 10px;
-    margin: 10px;
-    padding-left: 80px;
-    transition: 0.5s ease;
-    
-}
-.ikonat:hover
-{
-    color: rgb(3, 121, 62);
-    
-}
 
 
 .kontakti {
@@ -197,6 +180,13 @@ a {
     height: 30%;
 }
 
+.pjesa-dyte-l
+{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    
+}
 
 .ndarjet-dy
 {
@@ -238,130 +228,86 @@ a {
 }
 
 
-.takimi-kontakti {
+.pjesa-pare-takimi
+{
+    display: flex;
     
-    margin-bottom: 30px;
-    margin-top: 30px;
-   margin-left: 35%;
-box-sizing: border-box;
 }
 
-.butonatetakimit {
-    display: block;
-    margin-top: 30px;
-    /* margin-bottom: 30px; */
+.takimi-orari
+{
+    margin: 30px;
+    margin-top: 150px;
+    width: 45%;
+    justify-content: center;
+    text-align: center;
+}
 
+.tabela
+{
+    background-color: #e4e3e3
+}
 
+tr, th,td, table{
+    border-color: rgb(14, 49, 29);
+    padding: 6px;
+    border-style: ridge;
 }
 
 
+
+
+
+
+/* *** */
+.takimi10 {
+    width: 50%;
+    margin-left: 10px;
+
+}
 
 .emri {
-    padding: 15px;
-    width: 35%;
-    border: none;
-    border-radius: 6px;
-    display: block;
-    margin: 15px;
-    
-
+   padding: 10px;
+  width: 40%;
+   border: none;
+   border-radius: 6px;
+   display: block;
+   margin: 15px;
 }
 
 .mesazhi {
 
     padding: 2px;
-    width: 45%;
-    height: 100px;
+    width: 80%;
+    height: 80px;
     border: none;
     border-radius: 6px;
+    margin: 20px;
+    margin-left: 40px;
     text-align: center;
-    
 }
 
 .dergo {
     padding: 7px;
-    padding-left: 15px;
-    padding-right: 15px ;
     border: none;
     border-radius: 5px;
-    background-color: #80546b;
+    background-color: turquoise;
     color: white;
     width: auto;
     transition: 0.5s ease;
+    margin: 15px;
+    
 }
 
 .dergo:hover {
-    background-color: #4CAF50;
-    color: white;
-}
-
-
-.pjesa-pare
-{
-    width: 100%;
-    height: 680px;
-    display: flex;
-
-
-}
-.teksti-pare
-{
-    width: 40%;
-    /* text-align: center; */
-    justify-content:right;
-     align-items: right; 
-    padding: 30px;
-}
-pre.teksti-pare 
-{
-     font-size: 20px; 
-     font-family: 'Times New Roman', Times, serif;
-    
-}
-.foto-pare
-{
-    width: 30%;
-    text-align:right;
-    justify-content: center;
-    align-items: flex-end;
-    padding: 50px;
-    margin: 14px;
-
-
-}
-.pjesa-dyte
-{
-   font-size: 20px;
-   padding-left: 100px;
-   padding-right: 100px;
-   padding-bottom: 70px;
-   text-align: left;
-   justify-content: center;
-   font-family:'Times New Roman', Times, serif;
-   
-
-}
-
-
-.dono
-{
-    background-color: #c2b8e4;
-    color: black;
-    padding: 5px;
-    transition: 0.5s ease;
-}
-.dono:hover
-{
     background-color: white;
-    color: black;
+    color: turquoise;
 }
 
-.donimi {
-    border-radius: 15px;
-    padding: 10px;
-    margin: 50px;
-    font-size: 20px;
-    text-align: left;
-      
+.butonatetakimit {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
 
 }
