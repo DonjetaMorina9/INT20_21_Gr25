@@ -70,19 +70,13 @@ a {
 #footer {
     width: auto;
     background-color: #e7cdbd;
-
+    
     min-height: 40px;
     position: relative;
     bottom: 0;
 }
 
-.ballina {
-    background-image: url(fotot/ballina.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    height: 683px;
 
-}
 
 .pjesa-fundit {
 
@@ -91,6 +85,7 @@ a {
     display: flex;
     height: auto;
     margin-bottom: 0px;
+    
 
 }
 
@@ -138,9 +133,11 @@ a {
     padding-right: 100px;
     padding-bottom: 70px;
     text-align: left;
+    text-shadow: none;
+    word-wrap: break-word;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
-
+    font-style: normal;
 
 }
 
