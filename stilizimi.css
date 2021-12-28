@@ -177,34 +177,17 @@ a {
     color: white;
 }
 
-.fotot12 {
 
-    box-sizing: border-box;
-    height: 570px;
-    background-color: none;
-    margin: 40px;
-width: auto;
 
+
+.permbajtja {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-image: url(library/snow.gif);
 }
 
-.distancaefotov {
-    width: 24%;
-    height: 100%;
-    margin: 3px;
-    repeat: no-repeat;
-    size: 100% 100%;
-    transition: 0.1s ease;
 
-}
-
-.distancaefotov:hover {
-    filter: blur(2px);
-}
-
-.fotot4 {
-    margin-top: 6px;
-    height: 30%;
-}
 
 
 
@@ -398,13 +381,46 @@ table {
     background-color: #4CAF50;
 }
 
+
 .active
 {
     background-color: green;
 }
 
-.filteri
+
+
+#photo
 {
-    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 25px));
+    column-gap: 5px;
+    grid-row-gap: 5px;
+    padding: 5px 0;
+}
+
+header
+{
+    background-color: white;
+    padding: 20px;
+}
+.foto
+{
+    border: 1px solid white;
+    border-radius: 3px;
+    max-width: 250px;
+}
+.distancaefotov
+{
+    width: 100%;
+    height: 100%;
+    margin: 3px;
+    repeat: no-repeat;
+    size: 100% 100%; 
+}
+
+.distancaefotov:hover
+{
+    transition: all 0.5s ease;
+    transform: scale(1.1);
 }
 
