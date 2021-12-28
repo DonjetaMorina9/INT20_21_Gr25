@@ -26,20 +26,3 @@ for (i = 0; i < butoni.length; i++) {
     });
 };
 
-const name = document.getElementById('fname')
-const  password = document.getElementById('password')
-const  form = document.getElementById('form')
-const errorElement = document.getElementById('error')
-
-form.addEventListener('submit', (f) =>
-{
-    let messages = []
-    if(name.value === '' || name.value == null)
-    {
-        messages.push('Ju lutem sigurohuni qe keni plotesuar numrin e xhirollogaris dhe shumen qe doni te dononi')
-    }
-    if ( messages.length>0 ){
-    f.preventDefault()
-    errorElement.innerText = messages.join(' , ')
-    }
-});
