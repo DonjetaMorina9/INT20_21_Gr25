@@ -6,6 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Logopedët</title>
    <link rel="stylesheet" type="text/css" href="stilizimi.css">
+   <script  defer src="javascript.js"></script>
 
    <style>
       input[type=text],
@@ -78,7 +79,7 @@ textarea {
            <div class="donimi">
             <center><h2>Dononi:</h2>
                <br>
-            <label for="Country">Zgjedhni emrin e bankës :</label>
+            <label for="Country"  >Zgjedhni emrin e bankës :</label>
                <br>
                <select id="country" name="country" style="width:250px">
                    <option value="Kosova1">Zgjedh </option>
@@ -88,25 +89,26 @@ textarea {
                    <option value="Usaa">TEB</option>
                </select>
    
-           <form>
-               <label for="fname">Shkruani numrin e xhirollogarisë:</label>
+           <form id="form" action=" /" method="get">
+              <div id="errror"></div>
+               <label for="fname" >Shkruani numrin e xhirollogarisë:</label>
                <br>
-               <input type="text" name="firstname" id="fname" placeholder="Nr. e xhirollogarisë.." style="width:250px;">
+               <input type="text" name="firstname" id="fname" placeholder="Nr. e xhirollogarisë.."  style="width:250px;">
       
                <br>
-                   <label for="lname">Shkruani PIN-in e kartelës:</label>
+                   <label for="lname" >Shkruani PIN-in e kartelës:</label>
                <br>
                
-               <input type="password" name="lname2" id="lname2" placeholder="PIN" style="width:250px;" >
+               <input type="password" name="lname2" id="password" placeholder="PIN" style="width:250px;"  required>
                    <br>
                <label for="lname">Shkruani shumën që doni të dononi:</label>
                <br>
-               <input type="text" name="lname" id="lname" placeholder="" style="width:250px;" >
+               <input type="text" name="lname" id="fname" placeholder="" style="width:250px;"  >
                <br>
                <label for="lname">Zgjedhni grup-moshën për të cilën dëshironi të dononi:</label>
            <br>
                
-               <form>
+               <form >
                   <BR><BR>
   <input type="checkbox"  name="grup1" value="1">
   <label for="grup1"> PARA SE FËMIJA TË FILLOJ TË FLAS</label><br><BR>
