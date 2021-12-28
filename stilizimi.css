@@ -29,6 +29,8 @@ header {
     align-items: right;
     width: 20%;
     height: auto;
+    animation-name: levizja ;
+    animation-duration: 3s;
 }
 
 .menyt {
@@ -113,6 +115,9 @@ a {
 
 .ikonat:hover {
     color: rgb(3, 121, 62);
+    
+    transform: skew(15deg);
+    
 
 }
 
@@ -257,6 +262,7 @@ pre.teksti-pare {
 .butoni-meshume:hover {
     background-color: black;
     color: #e7cdbd;
+    
 }
 
 
@@ -334,6 +340,7 @@ table {
 .dergo:hover {
     background-color: white;
     color: turquoise;
+    transform: rotateY(360deg);
 }
 
 .butonatetakimit {
@@ -373,12 +380,22 @@ table {
     margin: 3px;
     border-radius: 3px;
     transition: 1s ease;
+
+    
+   
 }
 
 .btn:hover
 {
     transition: 1s ease;
     background-color: #4CAF50;
+    
+  
+}
+@keyframes levizja {
+    from {transform: translateX(0);}
+    to {transform: translateX(200px);}
+    
 }
 
 
