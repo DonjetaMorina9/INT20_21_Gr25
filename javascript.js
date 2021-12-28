@@ -27,7 +27,7 @@ for (i = 0; i < butoni.length; i++) {
 };
 
 const name = document.getElementById('fname')
-const  pin = document.getElementById('password')
+const  password = document.getElementById('password')
 const  form = document.getElementById('form')
 const errorElement = document.getElementById('error')
 
