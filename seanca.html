@@ -44,7 +44,11 @@
            </header>
            <div class="pjesa-pare-takimi">
            <div class="takimi-orari">
-              <u><b style="font-size: 25px; ">Orari i punës<br></b></u><br><br>
+              <h1 id="orari"></h1>
+              <script>
+                 document.getElementById('orari').innerHTML='Orari i punës';
+              </script>
+              
             <table class="tabela" border="1">
                <tr>
                   <th></th>
@@ -67,7 +71,7 @@
                   <td>---</td>
                   <td>13:00-16:00</td>
                </tr> <tr>
-                  <td>E mërkurë</td>
+                  <td>E m&euml;rkur&euml;</td>
                   <td>13:00-16:00</td>
                   <td>---</td>
                   <td>09:00-12:00</td>
@@ -160,7 +164,13 @@
      <input type="text" placeholder="Mesazhi" class="mesazhi">
      </div>
      <div class="butonatetakimit" style="margin-left: 30%;">
-     <button type="submit" class="dergo">Dërgo mesazhin </button>
+     <button onclick="myFunction()" class="dergo">Dërgo mesazhin </button>
+     
+
+<script>
+function myFunction() {
+  alert("Takimi është realizuar më sukses!");
+}</script>
      <button type="reset" class="dergo">Rifillo</button>
      </div>
 
