@@ -165,7 +165,35 @@
   <label for="grup">Për fëmijët</label>
   <input type="radio"  name="grup" style="margin-left:50px; ">
   <label for="grup" > Për të moshuarit</label> 
-  <br><br>
+  <br><br><br>
+  <p>Këtu mund të matni kohën për sa mund të shqiptoj një fjalë personi që do të bëjë takimin: <output id="result"></output></p><br>
+  <button onclick="startWorker()">Start</button> 
+  <button onclick="stopWorker()">Stop</button>
+  
+  
+  
+  <script>
+  var w;
+  
+  function startWorker() {
+    if(typeof(Worker) !== "undefined") {
+      if(typeof(w) == "undefined") {
+        w = new Worker("demo_workers.js");
+      }
+      w.onmessage = function(event) {
+        document.getElementById("result").innerHTML = event.data;
+      };
+    } else {
+      document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
+    }
+  }
+  
+  function stopWorker() { 
+    w.terminate();
+    w = undefined;
+  }
+  </script>
+
   
 </form>
 </div>
