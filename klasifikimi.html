@@ -19,10 +19,24 @@
 <script>
 $(function(){   //krijimi i funksiont
   $("button").click(function(){ //thirrja ebutonit me nje prekje
-    $("p").toggle(); //shfaq/ fshe tekstin
+    $("p").slideToggle(); //shfaq/ fshe tekstin
   });
 });
 </script>
+<style>
+    p{
+        display: none;
+    }
+    button{
+        background: linear-gradient(to right bottom, rgb(0, 0, 0), rgb(75, 201, 25))no-repeat;
+    color: white;
+    }
+    .btn:hover,
+    button:hover{
+        background: linear-gradient(to right bottom, rgb(243, 45, 45), rgb(75, 201, 25))no-repeat;
+    color: white;
+    }
+</style>
  <header id="footer"> 
               <a href="ballina.html"><img src="fotot/logo.png" class="logo"> </a>
                        <nav> 

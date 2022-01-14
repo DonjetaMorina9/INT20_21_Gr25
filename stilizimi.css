@@ -169,18 +169,14 @@ a {
     padding-left: 55px;
     padding-right: 55px;
     margin: 25px;
-    background-color: #f76db4;
-    color: black;
+    background: linear-gradient(to right bottom, rgb(0, 0, 0), rgb(75, 201, 25))no-repeat;
+    color: white;
     height: 60px;
     border-radius: 10px;
     box-shadow: 10px 10px 30px rgb(183, 183, 183);
     transition: 0.5s ease;
 }
 
-.gupemoshat:hover {
-    background-color: #2fe2e2;
-    color: black;
-}
 
 
 
@@ -254,8 +250,8 @@ pre.teksti-pare {
 }
 
 .butoni-meshume {
-    background-color: #e7cdbd;
-    color: black;
+    background: linear-gradient(to right bottom, rgb(0, 0, 0), rgb(75, 201, 25))no-repeat;
+    color: white;
     padding: 5px;
     border: none;
     transition: 0.5s ease;
@@ -378,24 +374,14 @@ table {
 {
     font-size: 15px;
     text-decoration: none;
-    color: black;
-    background-color:#f76db4;
+    background: linear-gradient(to right bottom, rgb(0, 0, 0), rgb(75, 201, 25))no-repeat;
+    color: white;
     padding: 10px;
     margin: 3px;
     border-radius: 3px;
-    transition: 1s ease;
-
-    
-   
+    transition: 1s ease;  
 }
 
-.btn:hover
-{
-    transition: 1s ease;
-    background-color: #2fe2e2;
-    
-  
-}
 @keyframes levizja {
     from {transform: translateX(0);}
     to {transform: translateX(200px);}
@@ -405,7 +391,8 @@ table {
 
 .active
 {
-    background-color: #08acac;
+    background: linear-gradient(to right bottom, rgb(0, 0, 0), rgb(124, 9, 255))no-repeat;
+    color: white;
 }
 
 
@@ -487,16 +474,16 @@ header
 {
     padding: 10px;
     margin: 15px;
-    background-color: #f76db4;
+    background: linear-gradient(to right bottom, rgb(0, 0, 0), rgb(75, 201, 25))no-repeat;
+    color: white;
     border-radius: 5px;
-    color: black;
 }
 #lexomeshume:hover
 {
     padding: 10px;
     margin: 15px;
-    background-color: #2fe2e2;
+    background: linear-gradient(to right bottom, rgb(184, 216, 0), rgb(0, 0, 0))no-repeat;
+    color: white;
     border-radius: 5px;
-    color: black;
 }
 /*  */
