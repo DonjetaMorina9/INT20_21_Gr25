@@ -488,3 +488,11 @@ header
     border-radius: 5px;
     color: wheat;
 }
+#lexomeshume:hover
+{
+    padding: 10px;
+    margin: 15px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: wheat;
+}
