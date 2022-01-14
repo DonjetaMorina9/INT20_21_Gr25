@@ -105,6 +105,30 @@
                   <a href="https://www.facebook.com/luljeta.kabashi/" target="_blank"><button class="butoni-meshume">Shiko më shumë</button></a>
                  </div> 
               </div>
+
+             
+<center>
+   <p>Kliko ketu per te shfaqur vendodhjen tuaj</p>
+<button onclick="getLocation()" class="butoni-meshume">Provo</button>
+
+<p id="demo"></p>
+</center>
+<script>
+var x = document.getElementById("demo"); // thirrja e paragrafit
+
+function getLocation() {  //thirrja e funksionit pas shtypjes se butonit
+  if (navigator.geolocation) { 
+    navigator.geolocation.getCurrentPosition(showPosition); //merre lokacionin
+  } else {  //mese jo
+    x.innerHTML = "Nuk lejohet."; //shfaqe
+  }
+}
+
+function showPosition(position) { //merren nga show positone ne get locatione
+  x.innerHTML = "Gjerisa gjeografike " + position.coords.latitude +  //shfaq gjersin
+  "<br>Gjatsia gjeografike: " + position.coords.longitude; //gjatsin
+}
+</script>
    
 
 
