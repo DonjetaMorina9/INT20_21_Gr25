@@ -26,14 +26,10 @@
 
           $(document).ready(function(){
           $(".dergo").click(function(){
-         alert("Shuma qe do dononi eshte: " + $("#fname").val());
+         alert("Shuma qe do dononi eshte: " + $("#shuma").val());
        });
 });
-$(document).ready(function(){
-  $("button").click(function(){
-    alert("Value: " + $("#test").val());
-  });
-});
+
 </script>
  
 
@@ -170,8 +166,10 @@ textarea {
                    <br>
                
                <br>
-               <p>Shkruani shumën që doni të dononi: <input type="text" id="test" value="E konsiderueshme!"></p>
-               <input type="text" name="lname" id="fname" placeholder="" style="width:250px;"  >
+               <label for="lname">Shkruani shumën që doni të dononi:</label>
+               <br>
+               <input type="text" name="lname" id="shuma" placeholder="" style="width:250px;"  >
+               <br>
                <br>
                <label for="lname">Zgjedhni grup-moshën për të cilën dëshironi të dononi:</label>
            <br>
