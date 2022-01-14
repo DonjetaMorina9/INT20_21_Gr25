@@ -154,7 +154,7 @@
   <label for="grup" style="margin-right: 60px;">Para së fëmija të filloj të flas</label> 
   <input type="radio"  name="grup" value="2"> 
   <label for="grup">Për fëmijët</label>
-  <input type="radio"  name="grup" style="margin-left:50px; value="3" >
+  <input type="radio"  name="grup" style="margin-left:50px; ">
   <label for="grup" > Për të moshuarit</label> 
   <br><br>
   
@@ -177,8 +177,23 @@ function myFunction() {
 
    </div>
  </div>
-     
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script>
+         $(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeIn();
 
+  });
+});
+     </script>
+     <center>
+
+
+         <button>Kliko për të verifikuar që je njeri!!</button><br><br>
+         
+         <div id="div1" style="width:80px;height:80px;display:none;background-color: rgb(36, 94, 29);"></div><br>
+         
+         </center>
 
                      <div class="pjesa-fundit">
    
