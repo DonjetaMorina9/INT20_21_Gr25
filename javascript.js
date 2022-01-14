@@ -27,3 +27,6 @@ for (i = 0; i < butoni.length; i++) {
 };
 
 
+
+
+
