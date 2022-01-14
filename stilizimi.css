@@ -169,8 +169,8 @@ a {
     padding-left: 55px;
     padding-right: 55px;
     margin: 25px;
-    background-color: #80546b;
-    color: white;
+    background-color: #f76db4;
+    color: black;
     height: 60px;
     border-radius: 10px;
     box-shadow: 10px 10px 30px rgb(183, 183, 183);
@@ -178,8 +178,8 @@ a {
 }
 
 .gupemoshat:hover {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #2fe2e2;
+    color: black;
 }
 
 
@@ -189,7 +189,7 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-    background-image: url(library/snow.gif);
+    
 }
 
 
@@ -378,8 +378,8 @@ table {
 {
     font-size: 15px;
     text-decoration: none;
-    color: white;
-    background-color:#80546b;
+    color: black;
+    background-color:#f76db4;
     padding: 10px;
     margin: 3px;
     border-radius: 3px;
@@ -392,7 +392,7 @@ table {
 .btn:hover
 {
     transition: 1s ease;
-    background-color: #4CAF50;
+    background-color: #2fe2e2;
     
   
 }
@@ -405,7 +405,7 @@ table {
 
 .active
 {
-    background-color: green;
+    background-color: #08acac;
 }
 
 
@@ -443,6 +443,8 @@ header
 {
     transition: all 0.5s ease;
     transform: scale(1.1);
+    box-shadow: 15px 15px 15px 15px rgb(165, 162, 162);
+    border-radius: 30px;
 }
 .filter
 {
@@ -467,10 +469,11 @@ header
     justify-content: center;
     align-items: center;
     border-width: 3px;
-    margin-top: 30px;
+    border-radius: 20px;
+    margin-top: 70px;
     border-color: rgb(183, 183, 183);
     margin: 20px;
-    box-shadow: 10px 10px 30px rgb(183, 183, 183);
+    box-shadow: 10px 10px 30px rgb(255, 129, 129);
     margin-left: 25px;;
   
 }
@@ -484,15 +487,15 @@ header
 {
     padding: 10px;
     margin: 15px;
-    background-color: #80546b;
+    background-color: #f76db4;
     border-radius: 5px;
-    color: wheat;
+    color: black;
 }
 #lexomeshume:hover
 {
     padding: 10px;
     margin: 15px;
-    background-color: #4CAF50;
+    background-color: #2fe2e2;
     border-radius: 5px;
-    color: wheat;
+    color: black;
 }
