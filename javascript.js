@@ -28,5 +28,16 @@ for (i = 0; i < butoni.length; i++) {
 
 
 
+var i=0;
+
+function timedCount()
+{
+    i=i+1;
+    postMessage(i);                   //posts a message back to the HTML page.
+    setTimeout("timedCount()",1000);
+} 
+timedCount();
+
+
 
 

@@ -26,8 +26,13 @@
 
           $(document).ready(function(){
           $(".dergo").click(function(){
-         alert("Shuma qe do dononi eshte: " + $("#shuma").val());
+         alert("Shuma që është donuar: " + $("#shuma").val());
        });
+});
+
+
+$(document).ready(function(){
+  $(":selected").css("background-color", "red");
 });
 
 </script>
@@ -147,7 +152,7 @@ textarea {
                <select id="country" name="country" style="width:250px">
                    <option value="Kosova1">Zgjedh </option>
                    <option value="Kosova">BKT</option>
-                   <option value="Shqiperia">Raiffeisen Bank</option>
+                   <option selected="selected" value="Shqiperia">Raiffeisen Bank</option>
                    <option value="Usa">Pro Credit Bank</option>
                    <option value="Usaa">TEB</option>
                </select>

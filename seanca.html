@@ -164,6 +164,7 @@
   <input type="radio"  name="grup" style="margin-left:50px; ">
   <label for="grup" > Për të moshuarit</label> 
   <br><br><br>
+
   <p>Këtu mund të matni kohën për sa mund të shqiptoj një fjalë personi që do të bëjë takimin: <output id="result"></output></p><br>
   <button onclick="startWorker()">Start</button> 
   <button onclick="stopWorker()">Stop</button>
@@ -176,13 +177,13 @@
   function startWorker() {
     if(typeof(Worker) !== "undefined") {
       if(typeof(w) == "undefined") {
-        w = new Worker("demo_workers.js");
+        w = new Worker("javascript.js");
       }
       w.onmessage = function(event) {
         document.getElementById("result").innerHTML = event.data;
       };
     } else {
-      document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
+      document.getElementById("result").innerHTML = "Browser nuk eshte i suportuar";
     }
   }
   
@@ -219,7 +220,18 @@ function myFunction() {
 
          <button>Kliko për të verifikuar që je njeri!!</button><br><br>
          
-         <div id="div1" style="width:80px;height:80px;display:none;background-color: rgb(36, 94, 29);"></div><br>
+         <div id="div1" style="width:150px;height:80px;display:none;background-color: rgb(245, 241, 241);"><br>
+         
+          <input type="radio"  name="grup" value="1" >
+         <label for="grup" style="margin-right: 60px;">Po</label> 
+          <input type="radio"  name="grup" value="2"> 
+          <label for="grup">Jo</label>
+          <button onclick="myFunction1()" class="send">Dërgo verifikimin </button>
+          <script>
+            function myFunction1() {
+              alert("Verifikimi është bërë më sukses!");
+            }</script>
+         </div>
          
          </center>
 
