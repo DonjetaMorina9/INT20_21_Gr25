@@ -177,7 +177,7 @@
   function startWorker() {
     if(typeof(Worker) !== "undefined") {
       if(typeof(w) == "undefined") {
-        w = new Worker("javascript.js");
+        w = new Worker("worker.js");
       }
       w.onmessage = function(event) {
         document.getElementById("result").innerHTML = event.data;
